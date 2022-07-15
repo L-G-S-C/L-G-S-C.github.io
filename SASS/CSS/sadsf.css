@@ -1,0 +1,33 @@
+:root {
+    /* navbar variables */
+    --navbar-color-main: #303030;
+    --navbar-color-highlight: #202020;
+    --navbar-color-header: #151515;
+    --navbar-min-width: 5vw;
+    --navbar-max-width: 25vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav {
+    background-color: var(--navbar-color-main);
+    position: fixed;
+    width: var(--navbar-max-width);
+}
+
+.navbar-nav ul {
+    list-style: none;
+}

@@ -1,0 +1,79 @@
+:root {
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #18181b;
+}
+body::-webkit-scrollbar {
+  width: 0.35rem;
+}
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+header {
+  position: relative;
+  background-image: url("../../resources/IMG/BG_Main.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: calc(100% - 5rem);
+  margin-left: 5rem;
+  height: 0;
+  padding-top: 72.7272727273%;
+  background-attachment: fixed;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+header .container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+  width: inherit;
+  top: 0;
+}
+header .container .header-text {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+}
+header .container .header-text h1 {
+  font-size: 3.7vw;
+}
+header .container .header-text h2 {
+  font-size: 2.2vw;
+}
+header .container .header-text h3 {
+  font-size: 1.3vw;
+}
+header .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  background: linear-gradient(0deg, #18181b 0%, rgba(24, 24, 27, 0.5) 80%, rgba(24, 24, 27, 0) 100%);
+}
+
+main {
+  padding-top: 0;
+}
+main .content-overlay {
+  z-index: 3;
+  position: absolute;
+  background-color: #18181b;
+}/*# sourceMappingURL=style.css.map */

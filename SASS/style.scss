@@ -1,0 +1,92 @@
+@use "sass:math";
+
+$dark-background: #18181b;
+$dark-font-color: #ffffff;
+
+:root {
+    font-size: 16px;
+    font-family: "Open Sans";
+}
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $dark-font-color;
+    background-color: $dark-background;
+
+    &::-webkit-scrollbar {
+        width: 0.35rem;
+
+        &-track {
+            background: #1e1e24;
+        }
+
+        &-thumb {
+            background: #6649b8;
+        }
+    }
+}
+
+header {
+    position: relative;
+    background-image: url("../../resources/IMG/BG_Main.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: calc(100% - 5rem);
+    margin-left: 5rem;
+    height: 0;
+    padding-top: percentage(math.div(960, 1320));
+    background-attachment: fixed;
+
+    @media only screen and (max-width: 600px) {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .container {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        height: 50vw;
+        width: inherit;
+        top: 0;
+
+        .header-text {
+            z-index: 1;
+            position: relative;
+            text-align: center;
+
+            h1 {
+                font-size: 3.7vw;
+            }
+            h2 {
+                font-size: 2.2vw;
+            }
+            h3 {
+                font-size: 1.3vw;
+            }
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 3;
+        background: linear-gradient(0deg, rgba($dark-background, 1) 0%, rgba($dark-background, 0.5) 80%, rgba($dark-background, 0) 100%);
+    }
+}
+
+main {
+    padding-top: 0;
+    .content-overlay {
+        z-index: 3;
+        position: absolute;
+        background-color: $dark-background;
+    }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Pyscript shit -->
+    <!-- <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/unstable/pyscript.js"></script> -->
+
+    <!-- My shit -->
+    <link rel="stylesheet" href="./SASS/CSS/navbar.css">
+    <link rel="stylesheet" href="./SASS/CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"/>
+
+    <title>Main Page</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="logo">
+                <a class="logo-link">
+                    <span class="link-text logo-text">Luiz Gustavo</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" class="svg-color-logo" d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/>
+                    </svg>
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path fill="currentColor" class="svg-color-item" d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"/>
+                    </svg>
+                    <span class="link-text">Pagina Principal</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor" class="svg-color-item" d="M204.3 32.01H96c-52.94 0-96 43.06-96 96c0 17.67 14.31 31.1 32 31.1s32-14.32 32-31.1c0-17.64 14.34-32 32-32h108.3C232.8 96.01 256 119.2 256 147.8c0 19.72-10.97 37.47-30.5 47.33L127.8 252.4C117.1 258.2 112 268.7 112 280v40c0 17.67 14.31 31.99 32 31.99s32-14.32 32-31.99V298.3L256 251.3c39.47-19.75 64-59.42 64-103.5C320 83.95 268.1 32.01 204.3 32.01zM144 400c-22.09 0-40 17.91-40 40s17.91 39.1 40 39.1s40-17.9 40-39.1S166.1 400 144 400z"/>
+                    </svg>
+                    <span class="link-text">Sobre</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path fill="currentColor" class="svg-color-item" d="M224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM154.1 353.8c7.812 7.812 7.812 20.5 0 28.31C150.2 386.1 145.1 388 140 388s-10.23-1.938-14.14-5.844l-48-48c-7.812-7.812-7.812-20.5 0-28.31l48-48c7.812-7.812 20.47-7.812 28.28 0s7.812 20.5 0 28.31L120.3 320L154.1 353.8zM306.1 305.8c7.812 7.812 7.812 20.5 0 28.31l-48 48C254.2 386.1 249.1 388 244 388s-10.23-1.938-14.14-5.844c-7.812-7.812-7.812-20.5 0-28.31L263.7 320l-33.86-33.84c-7.812-7.812-7.812-20.5 0-28.31s20.47-7.812 28.28 0L306.1 305.8zM256 0v128h128L256 0z"/>
+                    </svg>
+                    <span class="link-text">Projetos</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor" class="svg-color-item" d="M0 144v288C0 457.6 22.41 480 48 480H96V96H48C22.41 96 0 118.4 0 144zM336 0h-160C150.4 0 128 22.41 128 48V480h256V48C384 22.41 361.6 0 336 0zM336 96h-160V48h160V96zM464 96H416v384h48c25.59 0 48-22.41 48-48v-288C512 118.4 489.6 96 464 96z"/>
+                    </svg>
+                    <span class="link-text">Contato</span>
+                </a>
+            </li>
+            
+            <li class="line">
+                <hr>
+            </li>
+
+            <li class="nav-item">
+                <a href="https://github.com/L-G-S-C/" target=”_blank” class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path fill="currentColor" class="svg-color-item" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                    </svg>
+                    <span class="link-text">GitHub</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="https://www.linkedin.com/in/lgsc000/" target=”_blank” class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" class="svg-color-item" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                    </svg>
+                    <span class="link-text">LinkedIn</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor" class="svg-color-item" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/>
+                    </svg>
+                    <span class="link-text">Light mode</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="header-text">
+                <h1>Luiz Gustavo Santos da Costa</h1>
+                <hr>
+                <h2>Desenvolvedor Fullstack | Game Designer</h2>
+                <h3>
+                    Python, ASP.NET, SQL, TypeScript, Java, Lua
+                    <br>
+                    & mais
+                </h3>
+            </div>
+        </div>
+        <div class="overlay">
+            
+        </div>
+    </header>
+
+    <main>
+        <div class="content-overlay">
+            <h1>CSS is Cool</h1>
+    
+            <p>
+            I'm baby kale chips affogato ennui lumbersexual, williamsburg paleo quinoa
+            iceland normcore tumeric. Kitsch coloring book retro, seitan schlitz
+            tattooed biodiesel vexillologist neutra. Synth mumblecore deep v, umami
+            selfies normcore gluten-free snackwave. Seitan ramps drinking vinegar
+            venmo keytar, humblebrag VHS post-ironic tacos godard pour-over.
+            </p>
+            <p>
+            Sartorial kogi taxidermy, kickstarter synth yr irony ennui everyday carry
+            retro helvetica stumptown cloud bread squid echo park. Etsy cloud bread
+            sartorial quinoa tacos beard mumblecore shaman tumblr pop-up. Twee retro
+            fingerstache af helvetica pabst 8-bit leggings taiyaki portland ramps tbh
+            tumblr vinyl. Neutra humblebrag bushwick portland subway tile plaid, offal
+            scenester flexitarian cliche squid small batch palo santo. Palo santo meh
+            adaptogen +1 3 wolf moon, listicle brunch ethical fanny pack everyday
+            carry fam. Offal fingerstache taxidermy, man bun venmo PBR&amp;B helvetica
+            thundercats everyday carry tote bag artisan cray wolf jianbing.
+            </p>
+            <p>
+            Taxidermy thundercats whatever austin. VHS helvetica ethical, dreamcatcher
+            enamel pin YOLO shabby chic locavore man bun crucifix pabst chillwave
+            pop-up vegan. Air plant mlkshk ethical echo park tumeric, whatever
+            crucifix godard scenester locavore pork belly yuccie vape. +1 gochujang
+            put a bird on it, pork belly whatever selfies vaporware occupy banh mi
+            normcore VHS. Cornhole normcore hashtag tilde. Hell of yr try-hard DIY raw
+            denim banjo, enamel pin irony polaroid copper mug tofu. Dreamcatcher lomo
+            literally 90's before they sold out, 3 wolf moon banh mi seitan chambray
+            cliche offal tote bag occupy pug.
+            </p>
+            <p>
+            Post-ironic hot chicken salvia yr yuccie ugh cold-pressed keffiyeh franzen
+            viral taxidermy mustache slow-carb crucifix vape. Taiyaki yuccie hell of
+            tacos PBR&amp;B, kitsch meggings tbh truffaut kickstarter mixtape af kogi.
+            Fingerstache vegan tofu waistcoat gentrify cray. Drinking vinegar 3 wolf
+            moon health goth craft beer master cleanse. Letterpress health goth 8-bit
+            chillwave craft beer brooklyn. Chicharrones master cleanse 8-bit,
+            mumblecore copper mug messenger bag poutine lomo kale chips flannel. Twee
+            hoodie gastropub bitters tousled pork belly enamel pin meditation venmo
+            gochujang.
+            </p>
+            <p>
+            Next level selfies cronut ethical. Tofu tumblr you probably haven't heard
+            of them, man braid literally forage swag chillwave. Pug yr flannel
+            tumeric. Coloring book yr chillwave snackwave, shoreditch shaman gentrify
+            typewriter tumeric DIY copper mug small batch. Scenester waistcoat YOLO
+            hexagon kombucha poke 8-bit meditation. Selvage scenester forage
+            williamsburg. Hoodie fingerstache tacos mustache, hashtag quinoa next
+            level sartorial craft beer retro disrupt lo-fi.
+            </p>
+            <p>
+            YOLO twee keytar farm-to-table flexitarian cardigan polaroid lumbersexual
+            adaptogen drinking vinegar echo park dreamcatcher. Brunch shoreditch
+            dreamcatcher iPhone knausgaard plaid edison bulb letterpress ethical yr
+            fanny pack. Typewriter portland woke glossier cronut, post-ironic migas
+            gentrify letterpress cray brunch lyft 8-bit master cleanse. Pitchfork
+            thundercats organic pour-over unicorn lomo.
+            </p>
+            <p>
+            Ugh yr tacos aesthetic everyday carry, tumeric selvage cliche skateboard.
+            Wolf truffaut enamel pin vexillologist poutine. Hoodie roof party pabst,
+            cardigan letterpress af disrupt +1 subway tile chillwave live-edge
+            meggings next level readymade. Master cleanse gentrify hashtag, stumptown
+            fam single-origin coffee occupy dreamcatcher air plant viral vexillologist
+            enamel pin meggings. Tumblr chambray pickled microdosing austin scenester
+            green juice.
+            </p>
+            <p>
+            Austin four dollar toast church-key, vaporware hoodie edison bulb jean
+            shorts sustainable williamsburg plaid helvetica scenester lomo humblebrag.
+            Meditation tumblr kickstarter ennui williamsburg taiyaki pabst pour-over.
+            8-bit godard cred, chillwave enamel pin skateboard you probably haven't
+            heard of them. Meditation before they sold out single-origin coffee swag
+            try-hard jianbing slow-carb shaman leggings. Palo santo shabby chic
+            whatever man bun. Master cleanse wayfarers single-origin coffee pork belly
+            cronut, normcore cliche jianbing before they sold out tousled shabby chic
+            af pop-up gentrify. Direct trade la croix vexillologist jianbing,
+            flexitarian selvage try-hard stumptown polaroid shaman wayfarers poke
+            ramps food truck swag.
+            </p>
+            <p>
+            Pok pok lumbersexual wayfarers, direct trade leggings poutine truffaut
+            kitsch. Seitan aesthetic master cleanse squid coloring book banh mi YOLO
+            vegan locavore vexillologist readymade next level pop-up edison bulb.
+            Selvage knausgaard literally, quinoa photo booth 3 wolf moon microdosing
+            freegan yuccie. Truffaut gentrify lomo put a bird on it waistcoat. Ugh
+            austin distillery, tbh actually pork belly snackwave artisan mixtape
+            quinoa vexillologist pok pok polaroid listicle readymade.
+            </p>
+            <p>
+            Hammock letterpress prism dreamcatcher truffaut shabby chic vice
+            cold-pressed. Franzen pug fashion axe before they sold out, tumblr irony
+            kogi actually af bushwick banh mi. Snackwave bicycle rights tofu
+            dreamcatcher tote bag pour-over meditation raw denim fanny pack. Pop-up
+            retro taiyaki meditation twee gastropub VHS etsy. Semiotics gochujang
+            street art normcore, edison bulb farm-to-table pour-over taxidermy
+            brooklyn.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
